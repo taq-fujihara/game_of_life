@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./Cell":"b1lF"}],"ZCfc":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e,t,n=require("./Board"),r=document.getElementById("board"),d=document.getElementById("refresh"),o=1200,a=20,c=30;function i(){e&&e.dispose(),(e=new n.Board(r,a,c)).render(),t=setInterval(function(){e.nextGeneration()||clearInterval(t)},o)}d.addEventListener("click",function(){clearInterval(t),i()}),i();
 },{"./Board":"yp1Z"}]},{},["ZCfc"], null)
-//# sourceMappingURL=game_of_life/main.cee5e45b.js.map
+//# sourceMappingURL=/game_of_life/main.cee5e45b.js.map
