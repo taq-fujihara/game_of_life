@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+}
+
+.cell {
+  box-sizing: border-box;
+  flex-shrink: 0;
+
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+
+  transition: all 0.3s ease-in-out;
+
+  &.alive {
+    background-color: #66BB6A;
+    // border: 0;
+  }
+}
